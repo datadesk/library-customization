@@ -1,0 +1,53 @@
+// Fonts
+//------------------------------------------------------------------------------
+// Font imports
+@font-face {
+    font-family: 'Benton Gothic';
+    src: url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-regular.eot');
+    src: url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-regular.eot?#iefix') format('embedded-opentype'), url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-regular.woff') format('woff'), url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Benton Gothic';
+    src: url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-bold.eot');
+    src: url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-bold.eot?#iefix') format('embedded-opentype'),
+         url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-bold.woff') format('woff'),
+         url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+$font-branding: 'Benton Gothic', cursive;
+$font-headline: 'Benton Gothic', sans-serif;
+$font-sans: 'Benton Gothic', sans-serif;
+
+// Colors
+//------------------------------------------------------------------------------
+// Classic Dark Theme
+$masthead-background: $gray-25;
+$main-homepage-background: $gray-10;
+$main-homepage-icon-color: $gray-80;
+$main-homepage-icon-border: $gray-55;
+$main-page-text-color: $gray-80;
+$main-page-btn-color: $gray-80;
+$search-container-background: #e6e2e2;
+$search-container-hover: $white;
+$btn-homepage-background: $gray-25;
+$btn-homepage-border: $gray-25;
+$btn-default-background: $black;
+$btn-default-background-hover: $black;
+$btn-default-border: $black;
+$btn-default-text-color: $gray-80;
+$btn-default-text-hover: $accent;
+$btn-user-initial: $gray-70;
+$elem-link-color: $gray-80;
+$elem-active-link-color: $gray-30;
+$elem-link-accent: $accent-light;
+$nav-text-color: $gray-70;
+
+.logo {
+  filter: invert(100%);
+}

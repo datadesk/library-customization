@@ -2,25 +2,20 @@ branding:
   name: Datagraphics docs
   org: The Los Angeles Times
   orgDomain: latimes.com
-  prettyName: About Library
+  prettyName: Data and graphics documentation
   favicon: /assets/images/library.ico
 
 landing:
-  tagline: Documentation by the Data and Graphics Department
-  viewAll: View All Docs
+  tagline: Documentation by the Los Angeles Times Data and Graphics Department
+  viewAll: View all
   quickLink: ''
 
 footer:
-  helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Github Page</a>.
-  defaultEmail: test.user@nytimes.com
+  helpText: Have a question? Ask <a href="https://latimes.slack.com/archives/C0PU5PAE5">#data-and-graphics-help</a>.
+  defaultEmail: datagraphics@latimes.com
 
 search:
-  placeholder: What do you want to know about Library?
+  placeholder: What do you want to find?
   results:
     none:
       suggestion: To request a new page, submit <a href="https://github.com/nytimes/library">a PR on Github</a>.
-
-# errors
-error:
-  403:
-    message: "<p>For this documentation site, we've disabled the final step of the Move File workflow. Normally, this request would succeed and you'd be taken to the new url for your page.</p>"
