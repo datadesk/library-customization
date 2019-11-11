@@ -1,14 +1,14 @@
 branding:
-  name: About Library 
-  org: The New York Times
-  orgDomain: nytimes.com
+  name: Datagraphics docs
+  org: The Los Angeles Times
+  orgDomain: latimes.com
   prettyName: About Library
   favicon: /assets/images/library.ico
 
 landing:
-  tagline: A simple documentation site, built from content in Google Docs.
+  tagline: Documentation by the Data and Graphics Department
   viewAll: View All Docs
-  quickLink: <a href="/get-started">Get started</a>.
+  quickLink: ''
 
 footer:
   helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Github Page</a>.
@@ -24,4 +24,3 @@ search:
 error:
   403:
     message: "<p>For this documentation site, we've disabled the final step of the Move File workflow. Normally, this request would succeed and you'd be taken to the new url for your page.</p>"
-
