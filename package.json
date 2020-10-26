@@ -16,6 +16,7 @@
   "homepage": "https://github.com/nytimes/library-customization-example#readme",
   "dependencies": {
     "cache-manager-ioredis": "^1.0.1",
-    "express-sslify": "^1.2.0"
+    "express-sslify": "^1.2.0",
+    "passport-slack-oauth2": "^1.0.2"
   }
 }
