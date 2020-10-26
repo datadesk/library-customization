@@ -8,7 +8,7 @@ branding:
 landing:
   tagline: Documentation by the Los Angeles Times Data and Graphics Department
   viewAll: View all
-  quickLink: ''
+  quickLink: '<a href="https://docs.datagraphics.news/training/how-to-contribute-documentation">Getting started</a>'
 
 footer:
   helpText: Have a question? Ask <a href="https://latimes.slack.com/archives/C0PU5PAE5">#data-and-graphics-help</a>.
