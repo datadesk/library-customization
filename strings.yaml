@@ -12,10 +12,10 @@ landing:
 
 footer:
   helpText: Have a question? Ask <a href="https://latimes.slack.com/archives/C0PU5PAE5">#data-and-graphics-help</a>.
-  defaultEmail: datagraphics@latimes.com
+  defaultEmail: ben.welsh@latimes.com
 
 search:
   placeholder: What do you want to find?
   results:
     none:
-      suggestion: To request a new page, submit <a href="https://github.com/nytimes/library">a PR on Github</a>.
+      suggestion: To request a new page, ask <a href="https://latimes.slack.com/archives/C0PU5PAE5">#data-and-graphics-help</a>.
