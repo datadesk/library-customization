@@ -6,7 +6,7 @@ branding:
   favicon: /assets/images/library.ico
 
 landing:
-  tagline: Documentation by the Los Angeles Times Data and Graphics Department
+  tagline: Documentation by the Data and Graphics Department
   viewAll: View all
   quickLink: '<a href="https://docs.datagraphics.news/training/how-to-contribute-documentation">Getting started</a>'
 
