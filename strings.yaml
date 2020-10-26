@@ -3,7 +3,6 @@ branding:
   org: The Los Angeles Times
   orgDomain: latimes.com
   prettyName: Data and Graphics Department documentation
-  favicon: /assets/images/library.ico
 
 landing:
   tagline: Documentation by the Los Angeles Times Data and Graphics Department
