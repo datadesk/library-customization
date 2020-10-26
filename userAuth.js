@@ -1,5 +1,7 @@
 'use strict'
 
+console.log("CUSTOM USER AUTH BOOTING");
+
 const passport = require('passport')
 const session = require('express-session')
 const md5 = require('md5')
