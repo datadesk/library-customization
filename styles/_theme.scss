@@ -2,22 +2,36 @@
 //------------------------------------------------------------------------------
 // Font imports
 @font-face {
-    font-family: 'Benton Gothic';
-    src: url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-regular.eot');
-    src: url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-regular.eot?#iefix') format('embedded-opentype'), url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-regular.woff') format('woff'), url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Benton Gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://www.latimes.com/projects/static-assets/v1/fonts/benton-gothic/regular.woff2')
+      format('woff2'),
+    url('https://www.latimes.com/projects/static-assets/v1/fonts/benton-gothic/regular.woff')
+      format('woff');
 }
+
 @font-face {
-    font-family: 'Benton Gothic';
-    src: url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-bold.eot');
-    src: url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-bold.eot?#iefix') format('embedded-opentype'),
-         url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-bold.woff') format('woff'),
-         url('https://d1qqc1e9kvmdh8.cloudfront.net/fonts/0.5.0/benton-gothic-bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Benton Gothic';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://www.latimes.com/projects/static-assets/v1/fonts/benton-gothic/medium.woff2')
+      format('woff2'),
+    url('https://www.latimes.com/projects/static-assets/v1/fonts/benton-gothic/medium.woff')
+      format('woff');
+}
+
+@font-face {
+  font-family: 'Benton Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://www.latimes.com/projects/static-assets/v1/fonts/benton-gothic/bold.woff2')
+      format('woff2'),
+    url('https://www.latimes.com/projects/static-assets/v1/fonts/benton-gothic/bold.woff')
+      format('woff');
 }
 
 $font-branding: 'Benton Gothic', cursive;
